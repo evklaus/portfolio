@@ -2,7 +2,6 @@
 
 .about__info
     display: flex
-    flex-wrap: wrap
     margin-bottom: 77px
 
     &-side
@@ -56,4 +55,18 @@
     &:hover, &:active, &:focus
         transition: .2s all
         transform: scale(1.1)
+
+@media screen and (max-width: 860px)
+    .about__info
+        flex-wrap: wrap
+
+        &-pic
+            margin: 0 auto
+            margin-bottom: 30px
+
+@media screen and (max-width: 450px)
+    .about__info-thumb
+        max-width: 100%
+
+
 
