@@ -1,0 +1,59 @@
+@import '../../../styles.sass'
+
+.about__info
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 77px
+
+    &-side
+        max-width: 550px
+
+.about__title
+    margin-bottom: 30px
+
+.about__info-pic
+    margin: 0 66px 0 0
+
+.about__info-side
+    display: flex
+    flex-direction: column
+
+.about__info-thumb
+    max-width: 400px
+
+.about__info-title
+    @include font(500, 24px, 21px)
+    margin-bottom: 30px
+    color: $color-blue
+
+    &-second, &-third
+        @include font(normal, 22px, 21px)
+        margin-bottom: 20px
+
+.about__list
+    margin-bottom: 20px
+
+.about__info-desc
+    margin-bottom: 20px
+
+.about__info-eng
+    margin-bottom: 20px
+
+.git-repo
+    display: flex
+    align-items: center
+    margin: auto 0 0 0
+
+.git-link
+    margin-right: 20px
+
+    &:last-child
+        margin-right: 0
+
+.git-thumb
+    max-width: 50px
+
+    &:hover, &:active, &:focus
+        transition: .2s all
+        transform: scale(1.1)
+

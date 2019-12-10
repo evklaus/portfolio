@@ -1,0 +1,64 @@
+@import '../../../styles.sass'
+
+.skills
+    margin-bottom: 77px
+
+    &__wrap
+        background-color: $color-white
+        box-shadow: 0px 2px 20px rgba(213, 217, 233, 0.16)
+        position: relative
+
+
+    &__title
+        width: 100%
+        background-color: $color-white
+        padding: 93px 100px 88px 100px
+        position: absolute
+        top: 0
+        left: 0
+        transform: translateY(-100%)
+        @include font(500, 35px, 42px)
+        color: $color-deep-blue
+
+    &__cards
+        display: grid
+        grid-template-columns: repeat(6, 1fr)
+        grid-template-rows: repeat(2, 1fr)
+        padding: 0 100px
+        height: 500px
+
+    &__card
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+        &:nth-child(1)
+            grid-column-start: 1
+            grid-column-end: 3
+        &:nth-child(2)
+            grid-column-start: 3
+            grid-column-end: 5
+        &:nth-child(3)
+            grid-column-start: 5
+            grid-column-end: 7
+        &:nth-child(4)
+            grid-column-start: 2
+            grid-column-end: 4
+        &:nth-child(5)
+            grid-column-start: 4
+            grid-column-end: 6
+
+        &:hover, &:active, &:focus
+            opacity: 0.25
+            transition: 0.2s all
+
+    &__card-desc 
+        text-transform: uppercase
+
+    &__card-thumb 
+        max-width: 130px
+
+
+        

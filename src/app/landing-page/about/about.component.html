@@ -1,0 +1,50 @@
+<section class="about" id="nav-about">
+  <div class="wrapper-full">
+    <div class="about__caption">
+      <h2 class="about__title section-title">About</h2>
+    </div>
+    <div class="about__info">
+      <div class="about__info-pic">
+        <img
+          src="assets/img/pic3.jpeg"
+          alt="myself"
+          class="about__info-thumb"
+        />
+      </div>
+      <div class="about__info-side">
+        <h3 class="about__info-title">
+            22 years old (December 11, 1996)
+        </h3>
+        <h3 class="about__info-title-second">
+            Professional skills:
+        </h3>
+        <ul class="about__list">
+            <li *ngFor="let item of skills; trackBy: trackByFn">
+                {{item}}
+            </li>
+        </ul>
+        <h3 class="about__info-title-third">
+            Additional information:
+        </h3>
+        <p class="about__info-desc">
+          I'm interested in web develop, UX/UI design and everything connected
+          with them. As for non-trivial experience, I'm served in the army, 
+          participated in Google Online Marketing Challenge.
+          Ready to implement excellent project with wonderful people.
+        </p>
+        <h3 class="about__info-title-third">
+            Foreign languages:
+        </h3>
+        <p class="about__info-eng">English (Intermediate)</p>
+        <div class="git-repo">
+            <a href="https://github.com/evklaus" class="git-link">
+                <img src="assets/img/git.png" alt="git" class="git-thumb"/>
+            </a>
+            <a (click)="pdfClick()" href="#!" class="git-link">
+                <img src="assets/img/pdf.png" alt="pdf" class="git-thumb"/>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+<section class="experience" id="nav-experience">
+  <div class="wrapper-full">
+    <div class="experience__caption">
+      <h2 class="experience__title section-title">Experience</h2>
+    </div>
+    <div *ngFor="let item of experience; trackBy: trackByFn" class="experience__info">
+      <div class="experience__period">
+          <h3 class="experience__period-title">{{item?.period}}</h3>
+      </div>
+      <div class="experience__desc">
+        <h1 class="experience__desc-title">{{item?.title}}</h1>
+        <p>{{item?.desc}}</p>
+      </div>
+    </div>
+  </div>
+</section>

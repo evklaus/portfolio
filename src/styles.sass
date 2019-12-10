@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap')
+@import 'node_modules/reset-css/sass/_reset.scss'
+
+@mixin font($font-style, $font-size, $line-height)
+  font-family: "Lato"
+  font-style: $font-style
+  font-size: $font-size
+  line-height: $line-height
+
+$color-white: #FFFFFF
+$color-blue: #0e1d28
+$color-deep-blue: #102746
+
+html
+  box-sizing: border-box
+
+body 
+  @include font(normal, 18px, 24px)
+
+*,
+*::after,
+*::before
+  box-sizing: inherit
+
+.wrapper 
+  max-width: 1060px
+  margin: 0 auto
+  padding: 0 15px
+
+  &-full
+    max-width: 1262px
+    margin: 0 auto
+    padding: 0 15px
+
+.section-title
+  @include font(500, 35px, 42px)
+  font-weight: 500
+  font-size: 35px
+  line-height: 42px
+  position: relative
+  padding-bottom: 10px
+
+.section-title::after
+  display: block
+  content: ""
+  width: 253px
+  height: 3px
+  background-color: $color-blue
+  position: absolute
+  bottom: 0
+  left: 0
+
+

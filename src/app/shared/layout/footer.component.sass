@@ -1,0 +1,41 @@
+@import '../../../styles.sass'
+
+.footer
+    background-color: $color-blue
+    padding: 120px 0
+
+.footer__title
+    font-weight: 500
+    font-size: 35px
+    line-height: 42px
+    color: $color-white
+
+.footer__nav
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+
+.footer__desc-title
+    @include font(500, 22px, 28px)
+    color: $color-white
+    margin-bottom: 12px
+
+.footer__desc
+    @include font(normal, 18px, 24px)
+    color: $color-white
+    margin-bottom: 22px
+
+.footer__thumb
+    max-width: 40px
+
+.footer__links
+    display: flex
+
+    .footer__link
+        margin-right: 20px
+
+        &:hover, &:active, &:focus
+            opacity: 0.25
+            transition: 0.2s all
+
+.flag-thumb
+    max-width: 50px

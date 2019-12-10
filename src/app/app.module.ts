@@ -1,16 +1,21 @@
+import { DirectivesModule } from './core/directives/directives.module';
+import { LandingPageModule } from './landing-page/landing-page.module';
+import { HeaderComponent, FooterComponent } from './shared/layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    LandingPageModule,
+    DirectivesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

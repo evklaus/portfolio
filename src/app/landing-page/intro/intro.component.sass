@@ -1,0 +1,21 @@
+@import '../../../styles.sass'
+    
+.intro 
+  min-height: 100vh
+  background-size: cover
+  padding-top: 263px
+  padding-bottom: 376px
+
+.intro__title 
+  @include font(500, 50px, 60px)
+  color: $color-white
+  margin-bottom: 22px
+  transition: 1s
+
+.intro__title:hover, .intro__desc:hover 
+  text-shadow: 0 0 .1em, 0 0 .3em
+
+.intro__desc 
+  @include font(500, 24px, 28px)
+  transition: 1s
+  color: $color-white
