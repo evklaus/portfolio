@@ -12,7 +12,9 @@
     &__title
         width: 100%
         background-color: $color-white
-        padding: 93px 100px 88px 100px
+        padding: 93px 0 88px 0
+        display: flex
+        justify-content: center
         position: absolute
         top: 0
         left: 0
@@ -55,12 +57,9 @@
     &__card-thumb 
         max-width: 130px
 
-@media screen and (max-width: 767px)
-    .skills__title
-        padding: 50px 100px 20px 15px
-        
-    .skills__wrap
-        box-shadow: none
+@media screen and (max-width: 767px)  
+    .skills
+        padding: 0 15px  
 
     .skills__cards
         padding: 0
