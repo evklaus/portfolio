@@ -10,7 +10,7 @@ export class HeaderComponent implements AfterViewInit {
   @Input() langStatus: boolean;
 
   public navItemsEng = [
-    { name: 'Stack', href: 'nav-skills' },
+    { name: 'Stack', href: 'nav-skills'},
     { name: 'About', href: 'nav-about' },
     { name: 'Education', href: 'nav-education' },
     { name: 'Experience', href: 'nav-experience' },
@@ -65,6 +65,7 @@ export class HeaderComponent implements AfterViewInit {
         t--;
         return (-c / 2) * (t * (t - 2) - 1) + b;
       };
+
 
       const animation = (currentTime) => {
         if (startTime === null) {
