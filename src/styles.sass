@@ -2,7 +2,7 @@
 @import 'node_modules/reset-css/sass/_reset.scss'
 
 @mixin font($font-style, $font-size, $line-height)
-  font-family: "Lato"
+  font-family: "Lato", sans-serif
   font-style: $font-style
   font-size: $font-size
   line-height: $line-height
@@ -14,7 +14,7 @@ $color-deep-blue: #102746
 html
   box-sizing: border-box
 
-body 
+body
   @include font(normal, 18px, 24px)
 
 *,
@@ -22,7 +22,7 @@ body
 *::before
   box-sizing: inherit
 
-.wrapper 
+.wrapper
   max-width: 1060px
   margin: 0 auto
   padding: 0 15px
