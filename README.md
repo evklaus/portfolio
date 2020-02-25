@@ -1,3 +1,1 @@
----
-permalink: /index.html
----
+ng deploy --base-href=/portfolio/
