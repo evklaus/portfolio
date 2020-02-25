@@ -7,8 +7,6 @@ import { Component, Input, AfterViewInit } from '@angular/core';
 })
 export class HeaderComponent implements AfterViewInit {
 
-  @Input() langStatus: boolean;
-
   public navItemsEng = [
     { name: 'Stack', href: 'nav-skills'},
     { name: 'About', href: 'nav-about' },
@@ -16,18 +14,6 @@ export class HeaderComponent implements AfterViewInit {
     { name: 'Experience', href: 'nav-experience' },
     { name: 'Contacts', href: 'nav-contacts' },
   ];
-
-  public navItemsRus = [
-    { name: 'Стэк Технологий', href: 'nav-skills' },
-    { name: 'Обо Мне', href: 'nav-about' },
-    { name: 'Образование', href: 'nav-education' },
-    { name: 'Опыт работы', href: 'nav-experience' },
-    { name: 'Контакты', href: 'nav-contacts' },
-  ];
-
-  get langCheck() {
-    return this.langStatus ? this.navItemsEng : this.navItemsRus;
-  }
 
   public ngAfterViewInit() {
     // it's a temporary solution
