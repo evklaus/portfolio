@@ -1,0 +1,110 @@
+{
+  "configVersion": 1,
+  "timestamp": 1582651996987,
+  "index": "/portfolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/portfolio/index.html",
+        "/portfolio/main-es2015.a745a5a3d506cc193639.js",
+        "/portfolio/main-es5.a745a5a3d506cc193639.js",
+        "/portfolio/manifest.webmanifest",
+        "/portfolio/polyfills-es2015.ca64e4516afbb1b890d5.js",
+        "/portfolio/polyfills-es5.277e2e1d6fb2daf91a5c.js",
+        "/portfolio/runtime-es2015.0811dcefd377500b5b1a.js",
+        "/portfolio/runtime-es5.0811dcefd377500b5b1a.js",
+        "/portfolio/styles.d91a3b38369420b81f9d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/portfolio/assets/icons/icon-128x128.png",
+        "/portfolio/assets/icons/icon-144x144.png",
+        "/portfolio/assets/icons/icon-152x152.png",
+        "/portfolio/assets/icons/icon-192x192.png",
+        "/portfolio/assets/icons/icon-384x384.png",
+        "/portfolio/assets/icons/icon-512x512.png",
+        "/portfolio/assets/icons/icon-72x72.png",
+        "/portfolio/assets/icons/icon-96x96.png",
+        "/portfolio/assets/img/angular.png",
+        "/portfolio/assets/img/css.png",
+        "/portfolio/assets/img/gerb-psu.jpg",
+        "/portfolio/assets/img/git.png",
+        "/portfolio/assets/img/html.png",
+        "/portfolio/assets/img/insta-logo.png",
+        "/portfolio/assets/img/js.png",
+        "/portfolio/assets/img/laptop.jpg",
+        "/portfolio/assets/img/linkedin.png",
+        "/portfolio/assets/img/pdf.png",
+        "/portfolio/assets/img/pic3.jpeg",
+        "/portfolio/assets/img/react.png",
+        "/portfolio/assets/img/rus.png",
+        "/portfolio/assets/img/telegram.png",
+        "/portfolio/assets/img/uk.png",
+        "/portfolio/assets/pdf/cv.pdf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/portfolio/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/portfolio/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/portfolio/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/portfolio/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/portfolio/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/portfolio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/portfolio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/portfolio/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/portfolio/assets/img/angular.png": "4bed9fcd863b752f91f30ccd87b485656ba98e2f",
+    "/portfolio/assets/img/css.png": "ece3d3b79b9af2599d5aa84ae624ed3eadc2d536",
+    "/portfolio/assets/img/gerb-psu.jpg": "7e33eefcb82cfa1c1a84657473cb2526a79ec699",
+    "/portfolio/assets/img/git.png": "c1d93d9161f3b1e779873265d5ed434711bc9da2",
+    "/portfolio/assets/img/html.png": "8a940afc91f01e5ed956cb90be40a7b2f31dc143",
+    "/portfolio/assets/img/insta-logo.png": "0c8b68982c2329efeebd5372171fae7528110ead",
+    "/portfolio/assets/img/js.png": "35ed7490a286fa6c5fec54ebe087e9880cdaf838",
+    "/portfolio/assets/img/laptop.jpg": "35185123b21624ca507f8cbff6c1353e850db28c",
+    "/portfolio/assets/img/linkedin.png": "9dda9a2c7e613c185c73a880e656458ba9fb706e",
+    "/portfolio/assets/img/pdf.png": "64e96fe1879fad0a08528b5341642b7824480de9",
+    "/portfolio/assets/img/pic3.jpeg": "3ba8a799fb603f08a8e57020ada866d67119a825",
+    "/portfolio/assets/img/react.png": "7cce2c70ec7c1d33d974cd8318846826fefc4e22",
+    "/portfolio/assets/img/rus.png": "698aec3fc327968b83fe8e38afa3fadd36d385e5",
+    "/portfolio/assets/img/telegram.png": "5fdc4459569bc6e772169168f42e73c4fffeafba",
+    "/portfolio/assets/img/uk.png": "dd195844555dc88182eb12b5589ef3760d1d83e7",
+    "/portfolio/assets/pdf/cv.pdf": "ec87d0a1a0c95dd601e1f6f6eefc4b8ceeeb30d4",
+    "/portfolio/index.html": "ae295b94d556333e159ff1e0aca5da209e874bd9",
+    "/portfolio/main-es2015.a745a5a3d506cc193639.js": "5e3e6aacd1b0cf75f789a6c341a65377daea6baf",
+    "/portfolio/main-es5.a745a5a3d506cc193639.js": "73e852f0687321494ab1437cabc65883387d104d",
+    "/portfolio/manifest.webmanifest": "17a15ee02b4450be25c50d968ae802a667fb0d85",
+    "/portfolio/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "/portfolio/polyfills-es5.277e2e1d6fb2daf91a5c.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
+    "/portfolio/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/portfolio/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/portfolio/styles.d91a3b38369420b81f9d.css": "265009773bae94d8a95c6b960f8ce08c63cf4c44"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
