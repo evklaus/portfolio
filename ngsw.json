@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582655031563,
+  "timestamp": 1582655483335,
   "index": "/portfolio/index.html",
   "assetGroups": [
     {
@@ -79,7 +79,7 @@
     "/portfolio/assets/img/telegram.png": "5fdc4459569bc6e772169168f42e73c4fffeafba",
     "/portfolio/assets/img/uk.png": "dd195844555dc88182eb12b5589ef3760d1d83e7",
     "/portfolio/assets/pdf/cv.pdf": "ec87d0a1a0c95dd601e1f6f6eefc4b8ceeeb30d4",
-    "/portfolio/index.html": "ae295b94d556333e159ff1e0aca5da209e874bd9",
+    "/portfolio/index.html": "80b06f50f9c40e53960a5766441d9e17ad83df33",
     "/portfolio/main-es2015.a745a5a3d506cc193639.js": "5e3e6aacd1b0cf75f789a6c341a65377daea6baf",
     "/portfolio/main-es5.a745a5a3d506cc193639.js": "73e852f0687321494ab1437cabc65883387d104d",
     "/portfolio/manifest.webmanifest": "c13a80cdb95a1f59262333f6c65dcfaf15c03f7a",
