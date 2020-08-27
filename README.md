@@ -1,1 +1,1 @@
-ng deploy --base-href=/portfolio/
+DEMO: https://evklaus.github.io/portfolio/
